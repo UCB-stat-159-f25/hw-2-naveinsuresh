@@ -1,5 +1,5 @@
 The following prompts were entered into ChatGPT for guidance/assistance.
 
-1. How do I find the specifc version of python being used in a jupyter notebook kernel?
-2. How do I add multiple files of a specific format to .gitignore?
-3. Why are there red underlinings in my jupyter notebook despite everything running properly?
+1. How do I find the specifc version of python being used in a jupyter notebook kernel? - import sys; print(sys.version)
+2. How do I add multiple files of a specific format to .gitignore? - *file_name/
+3. Why are there red underlinings in my jupyter notebook despite everything running properly? - These signal linting/formatting issues, no underlying issues with code logic.
